@@ -8,6 +8,6 @@ export default {
     { name: 'crefoScore', type: 'number', title: 'Crefo Score' },
     { name: 'preis', type: 'number', title: 'Preis in €' },
     { name: 'beschreibung', type: 'text', title: 'Beschreibung' },
-    { name: 'veröffentlicht', type: 'boolean', title: 'Veröffentlicht' }
+    { name: 'veroeffentlicht', type: 'boolean', title: 'Veröffentlicht' }
   ]
 }
