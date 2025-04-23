@@ -1,0 +1,10 @@
+{
+  "project": {
+    "name": "gesellschaften-direkt-cms"
+  },
+  "api": {
+    "projectId": "your_project_id",
+    "dataset": "production"
+  },
+  "plugins": ["@sanity/base"]
+}
