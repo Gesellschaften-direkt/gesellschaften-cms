@@ -2,13 +2,10 @@
   "name": "gesellschaften-cms",
   "version": "1.0.0",
   "scripts": {
-    "start": "sanity dev",
-    "build": "sanity build",
-    "deploy": "sanity deploy"
+    "build": "npx sanity build",
+    "start": "npx sanity dev"
   },
   "dependencies": {
-    "sanity": "^3.0.0",
-    "@sanity/core": "^3.0.0",
-    "@sanity/cli": "^3.0.0"
+    "sanity": "^3.0.0"
   }
 }
