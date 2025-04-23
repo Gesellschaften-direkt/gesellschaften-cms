@@ -5,10 +5,10 @@ import { schemaTypes } from './schemas/schema'
 export default defineConfig({
   name: 'default',
   title: 'Gesellschaften CMS',
-  projectId: 'deine_project_id', // <- hier deine echte Project-ID einsetzen
+  projectId: 'your_project_id', // <== DEINE ID hier eintragen!
   dataset: 'production',
   plugins: [deskTool()],
   schema: {
-    types: schemaTypes
-  }
+    types: schemaTypes,
+  },
 })
