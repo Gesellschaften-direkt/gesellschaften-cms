@@ -1,2 +1,2 @@
 # Gesellschaften CMS Studio
-Dieses Projekt ist dein Adminbereich zur Verwaltung deiner Gesellschaftsangebote.
+Dies ist ein vollständiges Sanity Studio v3 Setup.
