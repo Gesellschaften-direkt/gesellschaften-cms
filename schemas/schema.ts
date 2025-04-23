@@ -1,3 +1,3 @@
 import angebot from './angebot'
 
-export default [angebot]
+export const schemaTypes = [angebot]
