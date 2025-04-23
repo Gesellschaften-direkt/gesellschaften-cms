@@ -1,14 +1,14 @@
 import { defineConfig } from 'sanity'
 import { deskTool } from 'sanity/desk'
-import schema from './schemas/schema'
+import { schemaTypes } from './schemas/schema'
 
 export default defineConfig({
   name: 'default',
   title: 'Gesellschaften CMS',
-  projectId: '3hi0th2w', // <-- Dein echter Project ID
+  projectId: 'deine_project_id', // <- hier deine echte Project-ID einsetzen
   dataset: 'production',
   plugins: [deskTool()],
   schema: {
-    types: schema
+    types: schemaTypes
   }
 })
